@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guitar Chords</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Press the corresponding key on your keyboard to hear each guitar chord</h1>
+    <div class="keys">
+        <div data-key="65" class="key">
+            <kbd>A</kbd>
+            <span class="sound">A Major</span>
+        </div>
+        <div data-key="83" class="key">
+            <kbd>S</kbd>
+            <span class="sound">A Minor</span>
+        </div>
+        <div data-key="68" class="key">
+            <kbd>D</kbd>
+            <span class="sound">B Major</span>
+        </div>
+        <div data-key="70" class="key">
+            <kbd>F</kbd>
+            <span class="sound">B Minor</span>
+        </div>
+        <div data-key="71" class="key">
+            <kbd>G</kbd>
+            <span class="sound">C Major</span>
+        </div>
+        <div data-key="72" class="key">
+            <kbd>H</kbd>
+            <span class="sound">C Minor</span>
+        </div>
+        <div data-key="74" class="key">
+            <kbd>J</kbd>
+            <span class="sound">D Major</span>
+        </div>
+        <div data-key="75" class="key">
+            <kbd>K</kbd>
+            <span class="sound">D Minor</span>
+        </div>
+        <div data-key="76" class="key">
+            <kbd>L</kbd>
+            <span class="sound">E Major</span>
+        </div>
+        <div data-key="90" class="key">
+            <kbd>Z</kbd>
+            <span class="sound">E Minor</span>
+        </div>
+        <div data-key="88" class="key">
+            <kbd>X</kbd>
+            <span class="sound">F Major</span>
+        </div>
+        <div data-key="67" class="key">
+            <kbd>C</kbd>
+            <span class="sound">G Major</span>
+        </div>
+    </div>
+
+    <audio data-key="65" src="sounds/amajor.wav"></audio>
+    <audio data-key="83" src="sounds/aminor.wav"></audio>
+    <audio data-key="68" src="sounds/bmajor.wav"></audio>
+    <audio data-key="70" src="sounds/bminor.wav"></audio>
+    <audio data-key="71" src="sounds/cmajor.wav"></audio>
+    <audio data-key="72" src="sounds/cminor.wav"></audio>
+    <audio data-key="74" src="sounds/dmajor.wav"></audio>
+    <audio data-key="75" src="sounds/dminor.wav"></audio>
+    <audio data-key="76" src="sounds/emajor.wav"></audio>
+    <audio data-key="90" src="sounds/eminor.wav"></audio>
+    <audio data-key="88" src="sounds/fmajor.wav"></audio>
+    <audio data-key="67" src="sounds/gmajor.wav"></audio>
+
+
+    <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>
